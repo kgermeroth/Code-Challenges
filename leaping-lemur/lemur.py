@@ -66,6 +66,25 @@ def  lemur(branches):
     return num_of_jumps
 
 
+# solution did same thing except condensed logic:
+
+# def lemur(branches):
+
+#     current_branch = 0
+#     num_of_jumps = 0
+
+#     while current_branch < len(branches) - 1:
+#         current_branch += 2
+
+#         if current_branch >= len(branches) or branches[current_branch] == 1:
+#             current_branch -= 1
+#             num_of_jumps += 1
+
+#         num_of_jumps += 1
+
+#     return num_of_jumps
+
+
 
 
 if __name__ == '__main__':
