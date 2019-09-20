@@ -58,11 +58,15 @@ def furthest(num_holes, cafes):
 
     return farthest
 
+
 def furthest_optimized(num_holes, cafes):
     """Find longest distance between a hole and a cafe."""
 
     # set a farthest counter
     farthest = 0
+
+    if len(cafes) == num_holes:
+        return farthest
 
     cafe_indices = set(cafes)
 
