@@ -54,6 +54,16 @@ def reverse_linked_list(head):
 
     return prev_node_new
 
+    # official solution:
+    # out_head = None
+    # n = head
+
+    # while n:
+    #     out_head = Node(n.data, out_head)
+    #     n = n.next
+
+    # return out_head
+
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:
